@@ -1,0 +1,8 @@
+[project]
+name = "nl2sql-intelligent-query-agent"
+version = "1.0.0"
+description = "基于 LLMs 和 RAG 的 NL2SQL 智能问数 Agent"
+requires-python = "==3.11.*"
+dependencies = [
+    "fastapi[standard]<1.0.0,>=0.115.12",
+]
